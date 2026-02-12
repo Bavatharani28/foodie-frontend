@@ -37,10 +37,9 @@ The frontend communicates with the backend API to store data in the PostgreSQL d
 
 ## Project Structure
 
-foodie-frontend/
-│
-├── index.html
-└── README.md
+foodie-frontend
+ foodie-frontend/index.html
+ foodie-frontend/README.md
 
 
 ---
@@ -69,6 +68,7 @@ Open index.html in your browser.
 Fill in the form and click Add Food.
 Data will be stored in the PostgreSQL database through the backend API.
 
+---
 Developed By
 Bavatharani
 Full Stack Developer | Web Development Learner
