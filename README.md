@@ -37,8 +37,8 @@ The frontend communicates with the backend API to store data in the PostgreSQL d
 
 ## Project Structure
 
-foodie-frontend
- foodie-frontend/index.html
+foodie-frontend ||
+ foodie-frontend/index.html ||
  foodie-frontend/README.md
 
 
