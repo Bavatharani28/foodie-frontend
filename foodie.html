@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Food | Foodie App</title>
+
+    <style>
+        body {
+            font-family: cambria;
+            height: 100vh;
+            margin: 0;
+            background-color :#BA3511;            
+            background-size: cover;           
+            background-position: center;
+            background-repeat: no-repeat;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .card {
+            width: 380px;
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 15px 25px rgba(0,0,0,0.3);
+        }
+
+        h2 {
+            text-align: center;
+            color: #F05832;
+            margin-bottom: 20px;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            font-size: 14px;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            background: #F05832;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background: red;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="card">
+    <h2>Food Items</h2>
+
+    <form action="http://localhost:8080/food" method="post">
+      <b>Food Name : </b><input type="text" name="food" placeholder="Food Name" required>
+        <b>Price : </b><input type="number" step="0.1" name="price" placeholder="Price" required>
+        <b>Quantity : </b><input type="number" name="quantity" placeholder="Quantity" required>
+        <b>Add ons : </b><input type="text" name="add_ons" placeholder="Add-ons (optional)">
+        <button>Add Food</button>
+    </form>
+</div>
+</body>
+</html>
